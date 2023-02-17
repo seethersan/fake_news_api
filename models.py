@@ -33,3 +33,6 @@ confusion_matrix(y_test, y_pred, labels=['FAKE','REAL'])
 
 joblib.dump(pac, 'model.pkl')
 print("Model dumped!")
+
+joblib.dump(tfidf_vectorizer, 'tfidf_vectorizer.pkl')
+print("Vectorizer dumped!")
